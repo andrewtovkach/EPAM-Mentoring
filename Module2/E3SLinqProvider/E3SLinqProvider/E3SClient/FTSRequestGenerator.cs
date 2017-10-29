@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Newtonsoft.Json;
 
 namespace E3SLinqProvider.E3SClient
@@ -18,23 +19,23 @@ namespace E3SLinqProvider.E3SClient
 			BaseAddress = baseAddress;
 		}
 
-		public Uri GenerateRequestUrl<T>(string query = "*", int start = 0, int limit = 10)
+		public Uri GenerateRequestUrl<T>(IList<string> queryStrings, int start = 0, int limit = 10)
 		{
-			return GenerateRequestUrl(typeof(T), query, start, limit);
+			return GenerateRequestUrl(typeof(T), queryStrings, start, limit);
 		}
 
-		public Uri GenerateRequestUrl(Type type, string query = "*", int start = 0, int limit = 10)
+		public Uri GenerateRequestUrl(Type type, IList<string> queryStrings, int start = 0, int limit = 10)
 		{
 			string metaTypeName = GetMetaTypeName(type);
 
-			var ftsQueryRequest = new FTSQueryRequest
+		    var statements = queryStrings.Select(query => new Statement
+		    {
+		        Query = query
+		    }).ToList();
+
+		    var ftsQueryRequest = new FTSQueryRequest
 			{
-				Statements = new List<Statement>
-				{
-					new Statement {
-						Query = query
-					}
-				},
+				Statements = statements,
 				Start = start,
 				Limit = limit
 			};
@@ -42,7 +43,7 @@ namespace E3SLinqProvider.E3SClient
 			var ftsQueryRequestString = JsonConvert.SerializeObject(ftsQueryRequest);
 
 			var uri = FTSSearchTemplate.BindByName(BaseAddress,
-				new Dictionary<string, string>()
+				new Dictionary<string, string>
 				{
 					{ "metaType", metaTypeName },
 					{ "query", ftsQueryRequestString }

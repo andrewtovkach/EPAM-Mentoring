@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using E3SLinqProvider.E3SClient;
 using E3SLinqProvider.E3SClient.Entities;
 
@@ -36,6 +34,32 @@ namespace E3SLinqProvider
             var employees = new E3SEntitySet<EmployeeEntity>(user, password);
 
             foreach (var emp in employees.Where(e => e.workstation == "EPRUIZHW0249"))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
+            }
+
+            foreach (var emp in employees.Where(e => "EPRUIZHW0249" == e.workstation))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
+            }
+
+            foreach (var emp in employees.Where(e => e.workstation.StartsWith("EPRUIZHW")))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
+            }
+
+            foreach (var emp in employees.Where(e => e.workstation.EndsWith("RUIZHW0249")))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
+            }
+
+            foreach (var emp in employees.Where(e => e.workstation.Contains("IZHW024")))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
+            }
+
+            foreach (var emp in employees.Where(e => e.workstation.Contains("IZHW024") && e.nativename == "Михаил Романов"
+                && e.manager == "Alexander Orestov"))
             {
                 Console.WriteLine("{0} {1}", emp.nativename, emp.shortstartworkdate);
             }
