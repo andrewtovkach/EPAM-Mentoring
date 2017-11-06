@@ -3,7 +3,50 @@ using System.Runtime.InteropServices;
 
 namespace PowerManagementAPI
 {
-    public class PowerManagementApi
+    [Guid("2478fe3f-682b-4fd0-ac1d-41c71e509a94")]
+    [ComVisible(true)]
+    [InterfaceType(ComInterfaceType.InterfaceIsDual)]
+    public interface IPowerManagementApi
+    {
+        SYSTEM_POWER_INFORMATION GetSystemPowerInformation();
+        SYSTEM_BATTERY_STATE GetSystemBatteryState();
+        DateTime GetLastSleepTime();
+        DateTime GetLastWakeTime();
+        bool GetIsReserveHiberFile();
+        void SetHibernateState();
+        void SetStandbyState();
+    }
+
+    public struct SYSTEM_POWER_INFORMATION
+    {
+        public uint MaxIdlenessAllowed;
+        public uint Idleness;
+        public uint TimeRemaining;
+        public byte CoolingMode;
+    }
+
+    public struct SYSTEM_BATTERY_STATE
+    {
+        public bool AcOnLine;
+        public bool BatteryPresent;
+        public bool Charging;
+        public bool Discharging;
+        public byte Spare1;
+        public byte Spare2;
+        public byte Spare3;
+        public byte Spare4;
+        public uint MaxCapacity;
+        public uint RemainingCapacity;
+        public uint Rate;
+        public uint EstimatedTime;
+        public uint DefaultAlert1;
+        public uint DefaultAlert2;
+    }
+
+    [Guid("1483bebd-6bb1-4ae1-8e95-3f877f861705")]
+    [ClassInterface(ClassInterfaceType.None)]
+    [ComVisible(true)]
+    public class PowerManagementApi: IPowerManagementApi
     {
         private enum InformationLevel
         {
@@ -12,32 +55,6 @@ namespace PowerManagementAPI
             LastSleepTime = 15,
             LastWakeTime = 14,
             SystemReserveHiberFile = 10
-        }
-
-        public struct SYSTEM_POWER_INFORMATION
-        {
-            public uint MaxIdlenessAllowed;
-            public uint Idleness;
-            public uint TimeRemaining;
-            public byte CoolingMode;
-        }
-
-        public struct SYSTEM_BATTERY_STATE
-        {
-            public bool AcOnLine;
-            public bool BatteryPresent;
-            public bool Charging;
-            public bool Discharging;
-            public byte Spare1;
-            public byte Spare2;
-            public byte Spare3;
-            public byte Spare4;
-            public uint MaxCapacity;
-            public uint RemainingCapacity;
-            public uint Rate;
-            public uint EstimatedTime;
-            public uint DefaultAlert1;
-            public uint DefaultAlert2;
         }
 
         [DllImport("powrprof.dll")]

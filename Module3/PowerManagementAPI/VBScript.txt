@@ -1,0 +1,7 @@
+Sub test()
+
+    Dim powerManager As New powerManagementApi.powerManagementApi
+    lastSleepTime = powerManager.GetLastSleepTime
+    MsgBox lastSleepTime
+    
+End Sub
