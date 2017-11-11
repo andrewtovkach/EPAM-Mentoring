@@ -1,4 +1,5 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
 
 namespace MergeWinService
 {
@@ -28,7 +29,9 @@ namespace MergeWinService
         public static string GeneratedPDFFolderPath => ConfigurationManager.AppSettings["generatedPDFFolderPath"];
 
         public static string ProcessedImagesFolderPath => ConfigurationManager.AppSettings["processedImagesFolderPath"];
+        public static string IncorrectImagesFolderPath => ConfigurationManager.AppSettings["incorrectImagesFolderPath"];
 
         public static string PDFFileName => ConfigurationManager.AppSettings["pdfFileName"];
+        public static int TimeInterval => Convert.ToInt32(ConfigurationManager.AppSettings["timeInterval"]);
     }
 }

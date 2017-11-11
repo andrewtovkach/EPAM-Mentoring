@@ -1,4 +1,5 @@
-﻿using PdfSharp.Drawing;
+﻿using System;
+using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using System.IO;
 
@@ -8,11 +9,16 @@ namespace MergeWinService
     {
         private readonly string _fileName;
         private readonly PdfDocument _document;
-         
+        public int PreprocessedImagesCount { get; set; }
+        public DateTime? LastImageDateTime { get; set; }
+        public bool IsSaved { get; set; }
+
         public PDFGenerator(string fileName)
         {
             _fileName = fileName;
-            
+            PreprocessedImagesCount = 0;
+            IsSaved = false;
+
             _document = new PdfDocument();
         }
 
@@ -21,15 +27,18 @@ namespace MergeWinService
             PdfPage page = _document.AddPage();
 
             XGraphics gfx = XGraphics.FromPdfPage(page);
-            DrawImage(gfx, imagePath,
-                new DrawingParams {
+            var result = DrawImage(gfx, imagePath,
+                new DrawingParams
+                {
                     X = 50,
                     Y = 50,
                     Width = 500,
                     Height = 500
                 });
 
-            var processedImagesFolderPath = Path.Combine(Configuration.DirectoryPath, Configuration.ProcessedImagesFolderPath);
+            var processedImagesFolderPath = result ? Path.Combine(Configuration.DirectoryPath,
+                Configuration.ProcessedImagesFolderPath) :
+                Path.Combine(Configuration.DirectoryPath, Configuration.IncorrectImagesFolderPath);
             var newImagePath = imagePath.Replace(Configuration.DirectoryPath, processedImagesFolderPath);
 
             if (!Directory.Exists(processedImagesFolderPath))
@@ -38,27 +47,46 @@ namespace MergeWinService
             }
 
             File.Copy(imagePath, newImagePath);
+            File.Delete(imagePath);
+
+            if (result)
+            {
+                LastImageDateTime = DateTime.Now;
+                PreprocessedImagesCount++;
+                IsSaved = false;
+            }
         }
 
         public void SaveDocument()
         {
             var folderPath = Path.Combine(Configuration.DirectoryPath, Configuration.GeneratedPDFFolderPath);
 
-            if(!Directory.Exists(folderPath))
+            if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath);
             }
 
-            var newFileName = $"{_fileName}{MergeService.AppData.CountGeneratedPDFFiles+1}.pdf";
+            var newFileName = $"{_fileName}{MergeService.AppData.CountGeneratedPDFFiles + 1}.pdf";
             _document.Save(Path.Combine(folderPath, newFileName));
-            _document.Close();
+            _document.Dispose();
+            PreprocessedImagesCount = 0;
+            LastImageDateTime = null;
+            IsSaved = true;
         }
 
-        private void DrawImage(XGraphics gfx, string imagePath, DrawingParams drawingsParams)
+        private bool DrawImage(XGraphics gfx, string imagePath, DrawingParams drawingsParams)
         {
-            System.Drawing.Image img = System.Drawing.Image.FromFile(imagePath, true);
-            XImage image = XImage.FromGdiPlusImage(img);
-            gfx.DrawImage(image, drawingsParams.X, drawingsParams.Y, drawingsParams.Width, drawingsParams.Height);
+            try
+            {
+                XImage image = XImage.FromFile(imagePath);
+                gfx.DrawImage(image, drawingsParams.X, drawingsParams.Y, drawingsParams.Width, drawingsParams.Height);
+                image.Dispose();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }

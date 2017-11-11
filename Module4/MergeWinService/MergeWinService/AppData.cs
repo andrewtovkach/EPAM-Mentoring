@@ -5,7 +5,7 @@ namespace MergeWinService
     [Serializable]
     public class AppData
     {
-       public int CountGeneratedPDFFiles { get; set; }
+        public int CountGeneratedPDFFiles { get; set; }
 
         public AppData()
         {

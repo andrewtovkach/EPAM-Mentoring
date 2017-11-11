@@ -11,11 +11,9 @@ namespace MergeWinService
              : base(directoryPath)
         {
             _pdfGenerator = pdfGenerator;
-
-            Init();
         }
 
-        private void Init()
+        public void Start()
         {
             IncludeSubdirectories = true;
             NotifyFilter = NotifyFilters.FileName | NotifyFilters.Size;
@@ -23,9 +21,14 @@ namespace MergeWinService
             Created += Watcher_Created;
         }
 
-        public void Watcher_Created(object source, FileSystemEventArgs e)
+        private void Watcher_Created(object source, FileSystemEventArgs e)
         {
-            var fileName = System.IO.Path.GetFileName(e.FullPath);
+            ProcessFile(e.FullPath);
+        }
+
+        public void ProcessFile(string fullPath)
+        {
+            var fileName = System.IO.Path.GetFileName(fullPath);
 
             var fileNameParser = new FileNameParser(fileName);
 
@@ -34,12 +37,16 @@ namespace MergeWinService
 
             var fileData = fileNameParser.GetFileNameData();
 
-            var processedImagesFolderPath = System.IO.Path.Combine(Configuration.DirectoryPath, Configuration.ProcessedImagesFolderPath);
+            var processedImagesFolderPath = System.IO.Path.Combine(Configuration.DirectoryPath,
+                Configuration.ProcessedImagesFolderPath);
+            var incorrectImagesFolderPath = System.IO.Path.Combine(Configuration.DirectoryPath,
+                Configuration.IncorrectImagesFolderPath);
 
             if (Array.IndexOf(Configuration.FileExtensions, fileData.Extension) != -1 &&
-                fileData.Prefix == Configuration.Prefix && !e.FullPath.StartsWith(processedImagesFolderPath))
+                fileData.Prefix == Configuration.Prefix && !fullPath.StartsWith(processedImagesFolderPath)
+                && !fullPath.StartsWith(incorrectImagesFolderPath))
             {
-                _pdfGenerator.Addimage(e.FullPath);
+                _pdfGenerator.Addimage(fullPath);
             }
         }
     }
