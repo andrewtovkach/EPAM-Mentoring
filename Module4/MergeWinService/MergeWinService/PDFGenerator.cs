@@ -8,7 +8,7 @@ namespace MergeWinService
     public class PDFGenerator
     {
         private readonly string _fileName;
-        private readonly PdfDocument _document;
+        private PdfDocument _document;
         public int PreprocessedImagesCount { get; set; }
         public DateTime? LastImageDateTime { get; set; }
         public bool IsSaved { get; set; }
@@ -22,7 +22,43 @@ namespace MergeWinService
             _document = new PdfDocument();
         }
 
-        public void Addimage(string imagePath)
+        public bool Addimage(string imagePath)
+        {
+            try
+            {
+                GenerateNewPDFPage(imagePath);
+            }
+            catch (IOException exception)
+            {
+                _document = new PdfDocument();
+                var result = false;
+                int index = 0;
+                const int totalCount = 5;
+
+                while (index < totalCount)
+                {
+                    try
+                    {
+                        GenerateNewPDFPage(imagePath);
+                        result = true;
+                        break;
+                    }
+                    catch
+                    {
+                        _document = new PdfDocument();
+                        index++;
+                    }
+                }
+
+                if (!result)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        private void GenerateNewPDFPage(string imagePath)
         {
             PdfPage page = _document.AddPage();
 
@@ -36,9 +72,10 @@ namespace MergeWinService
                     Height = 500
                 });
 
-            var processedImagesFolderPath = result ? Path.Combine(Configuration.DirectoryPath,
-                Configuration.ProcessedImagesFolderPath) :
-                Path.Combine(Configuration.DirectoryPath, Configuration.IncorrectImagesFolderPath);
+            var processedImagesFolderPath = result
+                ? Path.Combine(Configuration.DirectoryPath,
+                    Configuration.ProcessedImagesFolderPath)
+                : Path.Combine(Configuration.DirectoryPath, Configuration.IncorrectImagesFolderPath);
             var newImagePath = imagePath.Replace(Configuration.DirectoryPath, processedImagesFolderPath);
 
             if (!Directory.Exists(processedImagesFolderPath))
@@ -46,8 +83,7 @@ namespace MergeWinService
                 Directory.CreateDirectory(processedImagesFolderPath);
             }
 
-            File.Copy(imagePath, newImagePath);
-            File.Delete(imagePath);
+            File.Move(imagePath, newImagePath);
 
             if (result)
             {
@@ -59,6 +95,11 @@ namespace MergeWinService
 
         public void SaveDocument()
         {
+            if (_document.PageCount == 0)
+            {
+                return;    
+            }
+
             var folderPath = Path.Combine(Configuration.DirectoryPath, Configuration.GeneratedPDFFolderPath);
 
             if (!Directory.Exists(folderPath))

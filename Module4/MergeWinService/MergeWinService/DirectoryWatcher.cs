@@ -46,7 +46,12 @@ namespace MergeWinService
                 fileData.Prefix == Configuration.Prefix && !fullPath.StartsWith(processedImagesFolderPath)
                 && !fullPath.StartsWith(incorrectImagesFolderPath))
             {
-                _pdfGenerator.Addimage(fullPath);
+                bool result = _pdfGenerator.Addimage(fullPath);
+
+                if (!result)
+                {
+                    Console.WriteLine("Image processing failed with error ({0})", fullPath);
+                }
             }
         }
     }
