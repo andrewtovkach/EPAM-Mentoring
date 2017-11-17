@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralWinService", "CentralWinService\CentralWinService.csproj", "{F36F1570-EF4B-4806-8ECF-E6ECD6BEEF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputWinService", "InputWinService\InputWinService.csproj", "{24C2039D-8B70-4545-9073-079BADE55B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F36F1570-EF4B-4806-8ECF-E6ECD6BEEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36F1570-EF4B-4806-8ECF-E6ECD6BEEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36F1570-EF4B-4806-8ECF-E6ECD6BEEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36F1570-EF4B-4806-8ECF-E6ECD6BEEF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C2039D-8B70-4545-9073-079BADE55B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C2039D-8B70-4545-9073-079BADE55B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C2039D-8B70-4545-9073-079BADE55B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C2039D-8B70-4545-9073-079BADE55B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
