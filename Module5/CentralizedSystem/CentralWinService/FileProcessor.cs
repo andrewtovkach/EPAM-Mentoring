@@ -22,14 +22,8 @@ namespace CentralWinService
 
             var fileData = fileNameParser.GetFileNameData();
 
-            var processedImagesFolderPath = System.IO.Path.Combine(Configuration.DirectoryPath,
-                Configuration.ProcessedImagesFolderPath);
-            var incorrectImagesFolderPath = System.IO.Path.Combine(Configuration.DirectoryPath,
-                Configuration.IncorrectImagesFolderPath);
-
             if (Array.IndexOf(Configuration.FileExtensions, fileData.Extension) != -1 &&
-                fileData.Prefix == Configuration.Prefix && !fullPath.StartsWith(processedImagesFolderPath)
-                && !fullPath.StartsWith(incorrectImagesFolderPath))
+                fileData.Prefix == Configuration.Prefix)
             {
                 bool result = _pdfGenerator.Addimage(fullPath);
 

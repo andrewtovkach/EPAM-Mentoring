@@ -19,7 +19,7 @@ namespace InputWinService
         {
             get
             {
-                return !_timeInterval.HasValue ? 1 : _timeInterval.Value;
+                return _timeInterval ?? 1;
             }
             set
             {
@@ -31,12 +31,17 @@ namespace InputWinService
         {
             get
             {
-                return !_maxProcessNumber.HasValue ? 5 : _maxProcessNumber.Value;
+                return _maxProcessNumber ?? 5;
             }
             set
             {
                 _maxProcessNumber = value;
             }
         }
+        public static string ProcessedImagesFolderPath => ConfigurationManager.AppSettings["processedImagesFolderPath"];
+
+        public static string IncorrectImagesFolderPath => ConfigurationManager.AppSettings["incorrectImagesFolderPath"];
+
+        public static string GeneratedPDFFolderPath => ConfigurationManager.AppSettings["generatedPDFFolderPath"];
     }
 }

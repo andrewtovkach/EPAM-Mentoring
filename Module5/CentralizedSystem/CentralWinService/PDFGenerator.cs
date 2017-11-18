@@ -29,7 +29,7 @@ namespace CentralWinService
             {
                 GenerateNewPDFPage(imagePath);
             }
-            catch (IOException exception)
+            catch (IOException)
             {
                 _document = new PdfDocument();
                 var result = false;
@@ -44,7 +44,7 @@ namespace CentralWinService
                         result = true;
                         break;
                     }
-                    catch
+                    catch(IOException)
                     {
                         _document = new PdfDocument();
                         index++;
