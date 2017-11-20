@@ -47,6 +47,9 @@ namespace CentralWinService
 
         public void Stop()
         {
+            var messageQueueName = Configuration.MessageQueueName;
+            MessageQueue.Delete(messageQueueName);
+
             if (_pdfGenerator.IsSaved)
                 return;
 
@@ -68,6 +71,16 @@ namespace CentralWinService
 
             using (_queue)
             {
+                var peek = _queue.Peek();
+                if (peek != null)
+                {
+                    var data = peek.Body as TransferData;
+                    if (data != null && data.Status == Status.SubmittedCentralSystem)
+                    {
+                        return;
+                    }
+                }
+
                 var message = _queue.Receive();
                 if (message != null)
                 {
@@ -93,8 +106,13 @@ namespace CentralWinService
                                 {
                                     Console.WriteLine("Image processing failed with error ({0})", fileTransferingData.FilePath);
                                 }
+                                else
+                                {
+                                    Console.WriteLine("Image processing completed successfuly - {0}", transferData.Id);
+                                }
 
                                 transferData.Status = result ? Status.Completed : Status.Failed;
+
                                 break;
                             case InputWinService.Models.Type.Statistics:
                                 var statisticsTransferingData = transferData.Data as StatisticsTransferingData;
@@ -158,7 +176,8 @@ namespace CentralWinService
                     {
                         MaxProcessNumber = statisticsData.MaxProcessNumber,
                         TimeInterval = statisticsData.TimeInterval
-                    }
+                    },
+                    Status = Status.SubmittedCentralSystem
                 });
 
                 Console.WriteLine("The request was sent - {0} - {1}", DateTime.Now, type);

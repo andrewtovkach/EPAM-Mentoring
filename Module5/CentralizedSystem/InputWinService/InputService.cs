@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Messaging;
 using System.Timers;
+using Type = InputWinService.Models.Type;
 
 namespace InputWinService
 {
@@ -49,7 +50,7 @@ namespace InputWinService
         {
             using (_queue)
             {
-                var type = Models.Type.Statistics;
+                var type = Type.Statistics;
 
                 _queue.Send(new TransferData
                 {
@@ -60,7 +61,8 @@ namespace InputWinService
                         TimeInterval = Configuration.TimeInterval,
                         MaxProcessNumber = Configuration.MaxProcessNumber,
                     },
-                    Type = type
+                    Type = type,
+                    Status = Status.Submitted
                 });
 
                 Console.WriteLine("The request was sent - {0} - {1}", DateTime.Now, type);
@@ -73,6 +75,16 @@ namespace InputWinService
 
             using (_queue)
             {
+                var peek = _queue.Peek();
+                if (peek != null)
+                {
+                    var data = peek.Body as TransferData;
+                    if (data != null && data.Status == Status.Submitted)
+                    {
+                        return;
+                    }
+                }
+
                 var message = _queue.Receive();
                 if (message != null)
                 {
@@ -92,11 +104,15 @@ namespace InputWinService
                         {
                             Configuration.MaxProcessNumber = statisticsTransferingData.MaxProcessNumber;
                             Configuration.TimeInterval = statisticsTransferingData.TimeInterval;
+
+                            Console.WriteLine("TimeInterval - {0}, MaxProcessNumber - {1}", 
+                                statisticsTransferingData.TimeInterval, statisticsTransferingData.MaxProcessNumber);
                         }
                     }
                 }
             }
         }
+
 
         public static void ProcessImage(string fullPath)
         {
@@ -119,6 +135,8 @@ namespace InputWinService
                 if (!fullPath.StartsWith(processedImagesFolderPath) && !fullPath.StartsWith(incorrectImagesFolderPath)
                     && !fullPath.StartsWith(generatedPDFfilesPath))
                 {
+                    var type = Models.Type.ImageProcess;
+                    
                     queue.Send(new TransferData
                     {
                         Id = Guid.NewGuid(),
@@ -126,9 +144,11 @@ namespace InputWinService
                         {
                             FilePath = fullPath,
                         },
-                        Type = Models.Type.ImageProcess,
+                        Type = type,
                         Status = Status.Submitted
                     });
+
+                    Console.WriteLine("The request was sent - {0} - {1}", DateTime.Now, type);
                 }
             }
 

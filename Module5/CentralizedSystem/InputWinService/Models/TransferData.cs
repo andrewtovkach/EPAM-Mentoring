@@ -13,6 +13,7 @@ namespace InputWinService.Models
     public enum Status
     {
         Submitted,
+        SubmittedCentralSystem,
         InProgress,
         Completed,
         Failed
