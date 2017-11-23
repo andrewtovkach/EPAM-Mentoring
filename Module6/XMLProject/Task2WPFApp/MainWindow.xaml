@@ -1,0 +1,34 @@
+﻿<Window x:Class="Task2WPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="RSS tape" Height="350" Width="750">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="70" />
+        </Grid.ColumnDefinitions>
+        <ListBox Name="listBoxTodoList" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Summary.Text}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Column="1">
+            <Label Content="input"></Label>
+            <Label Content="xslt file"></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="2" >
+            <TextBox Name="input" Margin="5" Height="20" TextChanged="Input_OnTextChanged"></TextBox>
+            <TextBox Name="xslt" Margin="5" Height="20" TextChanged="Xslt_OnTextChanged"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="3">
+            <Button Margin="5" Height="20" Name="Button" Click="Button_OnClick" Content="OK" IsEnabled="False" IsDefault="True"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
