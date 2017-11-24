@@ -1,10 +1,8 @@
 ﻿using System;
 using System.IO;
-using System.Text;
-using System.Xml;
 using Saxon.Api;
 
-namespace Task2
+namespace Task3
 {
     class Program
     {
@@ -16,7 +14,7 @@ namespace Task2
 
             Serializer serializer = new Serializer();
 
-            StreamWriter writer = new StreamWriter("result.xml");
+            StreamWriter writer = new StreamWriter("result.html");
 
             serializer.SetOutputWriter(writer);
 
@@ -24,6 +22,8 @@ namespace Task2
             {
                 transformer.ApplyTemplates(fileStream, serializer);
             }
+
+            writer.Close();
         }
     }
 }
