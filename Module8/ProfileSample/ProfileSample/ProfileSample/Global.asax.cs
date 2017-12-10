@@ -18,20 +18,14 @@ namespace ProfileSample
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            MiniProfilerEF6.Initialize();
         }
 
         protected void Application_BeginRequest()
         {
-            //if (Request.IsLocal)
-            {
-                MiniProfiler.Start();
-            }
         }
 
         protected void Application_EndRequest()
         {
-            MiniProfiler.Stop();
         }
     }
 }
