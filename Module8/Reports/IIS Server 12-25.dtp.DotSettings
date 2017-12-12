@@ -1,0 +1,457 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=ASP_002E_005FPage_005FViews_005FShared_005F_005FLayout_005Fcshtml_002EExecute/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04200013" OwnTime="0" SysTime="513247858" TotalTime="2713473766" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=ASP_002E_005FPage_005FViews_005FHome_005FIndex_005Fcshtml_002EExecute/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03E00007" OwnTime="0" SysTime="507800998" TotalTime="522207180" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EWeb_002ECore_002ECharacterStream_002EMoveToNextChar/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500022" OwnTime="351241329" SysTime="0" TotalTime="452266015" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EAspProxy_002EGetBuildManagerReferencedAssemblies/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C7D" OwnTime="0" SysTime="298445400" TotalTime="298445400" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EIVisitor_002EVisit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800633" OwnTime="42198503" SysTime="0" TotalTime="1155483222" /&gt;&lt;Implementation FuId="0x03800C75" OwnTime="27581116" SysTime="0" TotalTime="27581116" /&gt;&lt;Implementation FuId="0x038005EE" OwnTime="27522730" SysTime="0" TotalTime="492822979" /&gt;&lt;Implementation FuId="0x0380060C" OwnTime="15555558" SysTime="0" TotalTime="175793701" /&gt;&lt;Implementation FuId="0x03800C76" OwnTime="15103366" SysTime="0" TotalTime="71663527" /&gt;&lt;Implementation FuId="0x03800629" OwnTime="15010928" SysTime="0" TotalTime="490261649" /&gt;&lt;Implementation FuId="0x03800C6B" OwnTime="14460933" SysTime="0" TotalTime="670605642" /&gt;&lt;Implementation FuId="0x03800648" OwnTime="14449777" SysTime="0" TotalTime="676127898" /&gt;&lt;Implementation FuId="0x0380065A" OwnTime="14445660" SysTime="0" TotalTime="43334051" /&gt;&lt;Implementation FuId="0x038008A3" OwnTime="14441336" SysTime="0" TotalTime="44419232" /&gt;&lt;Implementation FuId="0x03800650" OwnTime="14433316" SysTime="0" TotalTime="14433316" /&gt;&lt;Implementation FuId="0x03800D33" OwnTime="14426394" SysTime="0" TotalTime="14426394" /&gt;&lt;Implementation FuId="0x0380063D" OwnTime="14420925" SysTime="0" TotalTime="29431853" /&gt;&lt;Implementation FuId="0x03800CEE" OwnTime="14361533" SysTime="0" TotalTime="14361533" /&gt;&lt;Implementation FuId="0x03800C4C" OwnTime="13258148" SysTime="0" TotalTime="1110545274" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=ASP_002E_005FPage_005FViews_005F_005FViewStart_005Fcshtml_002EExecute/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03F00005" OwnTime="14456452" SysTime="175672734" TotalTime="219009990" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EStringClosure_002ETokenizeStringContent/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x045000E9" OwnTime="98688653" SysTime="71448774" TotalTime="919969280" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EStringClosure_002EIsSpecialChar/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x045000EA" OwnTime="155735804" SysTime="0" TotalTime="155735804" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EInterception_002EInternalDispatcher_00601_002EDispatch/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00D9A" OwnTime="0" SysTime="120353890" TotalTime="120353890" /&gt;&lt;Implementation FuId="0x01D00D9B" OwnTime="0" SysTime="28836529" TotalTime="28836529" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EWeb_002ECore_002ECharacterStream_002EIsWhiteSpace/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500023" OwnTime="141830034" SysTime="0" TotalTime="141830034" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002BMethodCallTranslator_002EInitializeMethodTranslators/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D002E3" OwnTime="125167016" SysTime="14441742" TotalTime="154029826" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EInternalParse/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A45" OwnTime="129945002" SysTime="0" TotalTime="1224287423" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EEntitySql_002ECqlParser_002EParse/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D014D2" OwnTime="126581879" SysTime="0" TotalTime="184335069" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EAstNode_002EAccept/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800D71" OwnTime="40995018" SysTime="0" TotalTime="97588244" /&gt;&lt;Implementation FuId="0x03800940" OwnTime="28965987" SysTime="0" TotalTime="374418504" /&gt;&lt;Implementation FuId="0x03800D8D" OwnTime="14459892" SysTime="0" TotalTime="14459892" /&gt;&lt;Implementation FuId="0x038008F7" OwnTime="14432484" SysTime="0" TotalTime="1736227898" /&gt;&lt;Implementation FuId="0x03800D48" OwnTime="14422338" SysTime="0" TotalTime="217319860" /&gt;&lt;Implementation FuId="0x03800DF6" OwnTime="13240132" SysTime="0" TotalTime="56549262" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EReflectionUtil_002EGetCanonicalMethodDescription/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D035BB" OwnTime="28880969" SysTime="96284285" TotalTime="125165254" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EInternal_002EMaterialization_002EShaper_002EHandleEntityAppendOnly/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01A48" OwnTime="28918653" SysTime="94086439" TotalTime="209591899" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECallNode_002EAccept/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800708" OwnTime="102659476" SysTime="0" TotalTime="1442587788" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EResources_002EEntityRes_002EGetString/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D05388" OwnTime="0" SysTime="101078459" TotalTime="101078459" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EInternalTrees_002EBasicOpVisitorOfT_00601_002EVisitChildren/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0423C" OwnTime="55260629" SysTime="0" TotalTime="4528299132" /&gt;&lt;Implementation FuId="0x01D0054F" OwnTime="42042713" SysTime="0" TotalTime="415463697" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=ProfileSample_002ERouteConfig_002ERegisterRoutes/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x0160000C" OwnTime="0" SysTime="87835161" TotalTime="87835161" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002ECollections_002EIEnumerator_002EMoveNext/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D06336" OwnTime="14458317" SysTime="0" TotalTime="14458317" /&gt;&lt;Implementation FuId="0x01D06613" OwnTime="14449442" SysTime="0" TotalTime="14449442" /&gt;&lt;Implementation FuId="0x01D05FB8" OwnTime="0" SysTime="14421068" TotalTime="14421068" /&gt;&lt;Implementation FuId="0x038016FC" OwnTime="0" SysTime="14416632" TotalTime="14416632" /&gt;&lt;Implementation FuId="0x01D05F12" OwnTime="14377508" SysTime="0" TotalTime="14377508" /&gt;&lt;Implementation FuId="0x01D0652C" OwnTime="13259720" SysTime="0" TotalTime="13259720" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EHtmlParser_002EOnEndTagState/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500106" OwnTime="14468874" SysTime="68950555" TotalTime="83419429" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchema_002BSomSchemaSetHelper_002EAddXmlSchemaToSet/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0205B" OwnTime="14456325" SysTime="62720851" TotalTime="106171444" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EDependencyResolution_002ERootDependencyResolver_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00B9D" OwnTime="68592045" SysTime="0" TotalTime="83026783" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EBasicViewGenerator_002ECreateViewExpression/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02712" OwnTime="58140344" SysTime="0" TotalTime="58140344" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EEntitySql_002ESemanticAnalyzer_002EConvertQueryExpr/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D015A2" OwnTime="57768654" SysTime="0" TotalTime="115579469" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=ProfileSample_002EControllers_002EHomeController_002EIndex/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01600022" OwnTime="28845546" SysTime="28918689" TotalTime="7157320442" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EOutputVisitor_002EGetSmallestRep/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800CA3" OwnTime="0" SysTime="57761024" TotalTime="57761024" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EPrimitiveType_002EGetEdmPrimitiveTypes/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02F84" OwnTime="57760386" SysTime="0" TotalTime="158836774" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EMappingItemLoader_002ELoadEntityContainerMappingChildNodes/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D024F9" OwnTime="57722062" SysTime="0" TotalTime="186541128" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSScanner_002EIsValidIdentifierPart/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800AC5" OwnTime="0" SysTime="56593226" TotalTime="56593226" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ESqlServer_002ESqlGen_002ESqlGenerator_002EGenerateSql/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01F0039A" OwnTime="28885000" SysTime="13247612" TotalTime="113196820" /&gt;&lt;Implementation FuId="0x01F00398" OwnTime="14324666" SysTime="0" TotalTime="14324666" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EViewgenContext_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02BEA" OwnTime="55410666" SysTime="0" TotalTime="97685953" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EMinifier_002EMinifyJavaScript/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800E58" OwnTime="52960404" SysTime="0" TotalTime="1675052158" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002EAppConfig_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D04518" OwnTime="13234268" SysTime="33707532" TotalTime="46941800" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=StackExchange_002EProfiling_002EMiniProfiler_002BSettings_002E_002Ecctor/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x033002C3" OwnTime="0" SysTime="43597230" TotalTime="43597230" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EPlanCompiler_002EITreeGenerator_002EVisit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D04112" OwnTime="14446126" SysTime="0" TotalTime="14446126" /&gt;&lt;Implementation FuId="0x01D040F8" OwnTime="14445847" SysTime="0" TotalTime="14445847" /&gt;&lt;Implementation FuId="0x01D04119" OwnTime="14438056" SysTime="0" TotalTime="28933198" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EProvider_002EEdmProviderManifestFunctionBuilder_002EAddAggregate/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02FB0" OwnTime="43329183" SysTime="0" TotalTime="89018730" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EWeb_002ECore_002EITextProvider_002EGetCharAt/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500087" OwnTime="43326627" SysTime="0" TotalTime="43326627" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EViewGenerator_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C01" OwnTime="43324058" SysTime="0" TotalTime="155243023" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002EInitializeTranslators/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00206" OwnTime="28873684" SysTime="14438442" TotalTime="129939493" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EColorSlice_002BNestedFactory_002E_002Ecctor/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x0380048E" OwnTime="43310772" SysTime="0" TotalTime="43310772" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EQueryRewriting_002EQueryRewriter_002ERewriteQuery/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02823" OwnTime="43306433" SysTime="0" TotalTime="114396920" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EScanNextToken/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A7F" OwnTime="28854647" SysTime="14434614" TotalTime="72175214" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EPlanCompiler_002ETransformationRules_002Eget_005FAllRules/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D043AD" OwnTime="42182289" SysTime="0" TotalTime="42182289" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EObjectContext_002EExecuteInTransaction/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03918" OwnTime="42135435" SysTime="0" TotalTime="3934067680" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EInternalTrees_002ENodeInfoVisitor_002ERecomputeNodeInfo/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03D1E" OwnTime="42131925" SysTime="0" TotalTime="143047597" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ESqlServer_002ESqlGen_002ESqlGenerator_002EVisit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01F003B2" OwnTime="14551393" SysTime="0" TotalTime="14551393" /&gt;&lt;Implementation FuId="0x01F003C1" OwnTime="14319076" SysTime="0" TotalTime="43292277" /&gt;&lt;Implementation FuId="0x01F003D3" OwnTime="13235463" SysTime="0" TotalTime="13235463" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EInternal_002EObjectQueryState_002EGetExecutionPlan/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0351F" OwnTime="42075444" SysTime="0" TotalTime="3670521252" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EObjectStateManager_002EDetectChanges/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03A99" OwnTime="40955399" SysTime="0" TotalTime="54204615" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataPropertyCollection_002BItemTypeInformation_002EGetItemProperties/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02F55" OwnTime="0" SysTime="40948824" TotalTime="40948824" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EResolutionVisitor_002EAddGhostedFields/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800D00" OwnTime="30474586" SysTime="0" TotalTime="109545374" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EReorderScopeVisitor_002EApply/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800CE1" OwnTime="29192126" SysTime="0" TotalTime="184201271" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EInterception_002EDbInterceptionContext_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00AE6" OwnTime="0" SysTime="14651565" TotalTime="14651565" /&gt;&lt;Implementation FuId="0x01D00AE5" OwnTime="0" SysTime="14448628" TotalTime="14448628" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EQueryRewriting_002EQueryRewriter_002EGenerateViewComponents/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0280B" OwnTime="28997189" SysTime="0" TotalTime="326675006" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EUtils_002EBoolean_002EConverter_00601_002EFindAllPaths/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01B5A" OwnTime="28940541" SysTime="0" TotalTime="86741493" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EInternalTrees_002EBasicOpVisitor_002EVisit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D04312" OwnTime="14483212" SysTime="0" TotalTime="14483212" /&gt;&lt;Implementation FuId="0x01D03FA6" OwnTime="14453301" SysTime="0" TotalTime="14453301" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EViewgenGatekeeper_002EGenerateViewsFromCells/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C11" OwnTime="28909159" SysTime="0" TotalTime="1108024965" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002EAppend/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004F5" OwnTime="14474326" SysTime="14434731" TotalTime="86655627" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EStringClosure_002EGetStringClosureLocation/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x045000E8" OwnTime="28908660" SysTime="0" TotalTime="948877940" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002ELinq_002EExpressions_002EEntityExpressionVisitor_002EVisitMethodCall/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01A0A" OwnTime="28900232" SysTime="0" TotalTime="238246508" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataItem_002E_002Ecctor/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D011CD" OwnTime="28896282" SysTime="0" TotalTime="101076388" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EInternal_002EMaterialization_002ECoordinatorFactory_00601_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0110E" OwnTime="28892710" SysTime="0" TotalTime="28892710" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EAnalyzeNodeVisitor_002ECombineExpressions/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x0380062B" OwnTime="28887448" SysTime="0" TotalTime="43321679" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseVariableStatement/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A51" OwnTime="28887190" SysTime="0" TotalTime="127536773" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EConverter_002ELoadSchemaElement/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C9E" OwnTime="28886794" SysTime="0" TotalTime="127595552" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002ENextToken/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004E7" OwnTime="28886198" SysTime="0" TotalTime="99804478" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002EParseStylesheet/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004B8" OwnTime="28886115" SysTime="0" TotalTime="365833308" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchemaManager_002EParseAndValidate/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02141" OwnTime="14475814" SysTime="0" TotalTime="521039473" /&gt;&lt;Implementation FuId="0x01D02142" OwnTime="14409451" SysTime="0" TotalTime="761658813" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EDependencyResolution_002EDefaultProviderFactoryResolver_002EGetService/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00B62" OwnTime="0" SysTime="28882262" TotalTime="28882262" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssScanner_002EGetNum/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x0380053D" OwnTime="0" SysTime="28881489" TotalTime="28881489" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchemaElement_002EParse/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01EA2" OwnTime="14434206" SysTime="14445928" TotalTime="689551366" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EMappingItemLoader_002ELoadEntitySetMapping/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02501" OwnTime="28879866" SysTime="0" TotalTime="115514620" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EPlanCompiler_002EITreeGenerator_002EVisitExprAsScalar/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D040D4" OwnTime="28879454" SysTime="0" TotalTime="57771427" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ETypeUsageBuilder_002EValidateAndSetTypeUsage/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0218E" OwnTime="28877190" SysTime="0" TotalTime="28877190" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002BMemberAccessTranslator_002EGetPropertyTranslators/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00434" OwnTime="28875100" SysTime="0" TotalTime="57768246" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EForNode_002EAccept/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038008C3" OwnTime="28874254" SysTime="0" TotalTime="85603847" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002ELinqExpressionNormalizer_002EHasPredicateArgument/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03592" OwnTime="28873002" SysTime="0" TotalTime="168472830" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002ECellGroupValidator_002EPerformSingleCellChecks/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02BE3" OwnTime="28866471" SysTime="0" TotalTime="43321720" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EWeb_002ECore_002EITextRange_002Eget_005FEnd/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x0450005A" OwnTime="28862307" SysTime="0" TotalTime="28862307" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002ECommandTrees_002EInternal_002EDbExpressionRule_002ETryProcess/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00A28" OwnTime="28861377" SysTime="0" TotalTime="43310939" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002ECellCreator_002EExtractCellsFromTableFragment/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02726" OwnTime="28860029" SysTime="0" TotalTime="57700541" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002BMemberAccessTranslator_002E_002Ecctor/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0042D" OwnTime="28859121" SysTime="0" TotalTime="86627367" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EEnumType_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02DC4" OwnTime="28857425" SysTime="0" TotalTime="28857425" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EInternalTrees_002ERuleProcessor_002EApplyRulesToNode/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03F25" OwnTime="28855630" SysTime="0" TotalTime="57784535" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EStructures_002EBoolExpression_002EExpensiveSimplify/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02923" OwnTime="28855519" SysTime="0" TotalTime="156467436" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EEntitySql_002ECqlParser_002Eyyparse/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D014D0" OwnTime="28851847" SysTime="0" TotalTime="57753190" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00205" OwnTime="28844119" SysTime="0" TotalTime="226217181" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchema_002ECreateXmlReaderSettings/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02023" OwnTime="28843788" SysTime="0" TotalTime="149302719" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EWeb_002ECore_002EITextProvider_002Eget_005FLength/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500086" OwnTime="28835752" SysTime="0" TotalTime="28835752" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EUtils_002EMemoizer_00602_002BResult_002EGetValue/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01C37" OwnTime="28833980" SysTime="0" TotalTime="1782098274" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EInternal_002EMaterialization_002ETranslator_002ETranslateColumnMap/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01ABC" OwnTime="14429170" SysTime="0" TotalTime="228659805" /&gt;&lt;Implementation FuId="0x01D01ABD" OwnTime="0" SysTime="14355756" TotalTime="243015561" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchemaElement_002EHandleAttribute/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02011" OwnTime="14431808" SysTime="0" TotalTime="14431808" /&gt;&lt;Implementation FuId="0x01D0203C" OwnTime="14345020" SysTime="0" TotalTime="254984951" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EOutputVisitor_002EInsertSpaceIfNeeded/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800C90" OwnTime="0" SysTime="28656842" TotalTime="28656842" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchemaElement_002EValidate/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0202A" OwnTime="14467949" SysTime="0" TotalTime="83038952" /&gt;&lt;Implementation FuId="0x01D01F55" OwnTime="13253509" SysTime="0" TotalTime="13253509" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002ECellCreator_002EGenerateCells/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02722" OwnTime="27713663" SysTime="0" TotalTime="114216395" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EDependencyResolution_002EInternalConfiguration_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00B75" OwnTime="27698365" SysTime="0" TotalTime="110725148" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002EParseDeclarationList/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004C8" OwnTime="14442358" SysTime="13249464" TotalTime="213078910" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002EInternalContext_002EInitializeContext/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D057EA" OwnTime="27691054" SysTime="0" TotalTime="1829175902" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseFunctionBody/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A63" OwnTime="27684890" SysTime="0" TotalTime="387047349" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002EInternalContext_002ELoadContextConfigs/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D05661" OwnTime="0" SysTime="27679974" TotalTime="27679974" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EUtils_002ESet_00601_002EAddRange/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01C89" OwnTime="14414493" SysTime="13250018" TotalTime="27664511" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EStructuralType_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02D7C" OwnTime="14449191" SysTime="0" TotalTime="14449191" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EDependencyResolution_002EDbConfigurationManager_002E_003C_002Ector_003Eb_005F_005F1/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00B58" OwnTime="14444160" SysTime="0" TotalTime="182910786" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInfrastructure_002EDependencyResolution_002EDbConfigurationManager_002EEnsureLoadedForAssembly/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00B53" OwnTime="14443574" SysTime="0" TotalTime="14443574" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EObjectQuery_00601_002B_003C_003Ec_005F_005FDisplayClass7_002E_003CGetResults_003Eb_005F_005F5/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D06771" OwnTime="14418380" SysTime="0" TotalTime="3948486060" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EObjectQuery_00601_002B_003C_003Ec_005F_005FDisplayClass7_002E_003CGetResults_003Eb_005F_005F6/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D06772" OwnTime="14450277" SysTime="0" TotalTime="3684971529" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ECommon_002EDbProviderServices_002ECreateDbCommandDefinition/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01E0C" OwnTime="14452322" SysTime="0" TotalTime="2274308656" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EEntityClient_002EInternal_002EEntityCommandDefinition_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01E2D" OwnTime="14435760" SysTime="0" TotalTime="2259856334" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002BMethodCallTranslator_002ETypedTranslate/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D002E2" OwnTime="14416912" SysTime="0" TotalTime="1900750466" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002EInternalContext_002EInitialize/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0564B" OwnTime="14422060" SysTime="0" TotalTime="1843597962" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EPlanCompiler_002EPreProcessor_002EProcess/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0427D" OwnTime="14420357" SysTime="0" TotalTime="1547145743" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EObjectContext_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D038B1" OwnTime="13241922" SysTime="0" TotalTime="1657094380" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseLeftHandSideExpression/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A6B" OwnTime="27660073" SysTime="0" TotalTime="772127359" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EQuery_002EPlanCompiler_002EPreProcessor_002EExpandView/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D04283" OwnTime="14425001" SysTime="0" TotalTime="1393198153" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataWorkspace_002EGetGeneratedView/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D03105" OwnTime="13226328" SysTime="0" TotalTime="1248790250" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EHtmlParser_002EOnTextState/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500127" OwnTime="14365620" SysTime="0" TotalTime="1090062808" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataCache_002EGetMetadataWorkspace/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D030BF" OwnTime="13248708" SysTime="0" TotalTime="1105873021" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EHtml_002ECore_002EHtmlParser_002EOnAttributeState/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x04500102" OwnTime="14427886" SysTime="0" TotalTime="963305826" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002ELinq_002EIInternalSet_00601_002EFind/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D05862" OwnTime="14423418" SysTime="0" TotalTime="935360051" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EViewGenerator_002EGenerateAllBidirectionalViews/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C03" OwnTime="13267205" SysTime="0" TotalTime="880585382" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseUnaryExpression/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A69" OwnTime="14440832" SysTime="0" TotalTime="800970784" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EViewGeneration_002EViewGenerator_002EGenerateDirectionalViews/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02C07" OwnTime="14467395" SysTime="0" TotalTime="780687990" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EInternal_002ELinq_002EInternalSet_00601_002EFindInStore/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D05866" OwnTime="13223529" SysTime="0" TotalTime="805231281" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataCache_002B_003C_003Ec_005F_005FDisplayClass5_002E_003CGetMetadataWorkspace_003Eb_005F_005F0/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D06650" OwnTime="14405631" SysTime="0" TotalTime="721971646" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EEdmItemCollection_002EInit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D02CD7" OwnTime="14453246" SysTime="0" TotalTime="693114870" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchema_002EHandleTopLevelSchemaElement/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0204B" OwnTime="19260421" SysTime="0" TotalTime="429501439" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EDbContext_002EInitializeLazyInternalContext/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00DF6" OwnTime="13248590" SysTime="0" TotalTime="523470182" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EMinifier_002EMinifyStyleSheet/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800E5B" OwnTime="14438669" SysTime="0" TotalTime="452349253" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EObjects_002EELinq_002EExpressionConverter_002BConstantTranslator_002ETypedTranslate/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0045A" OwnTime="14435198" SysTime="0" TotalTime="430102012" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002EParse/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004B6" OwnTime="14423185" SysTime="0" TotalTime="409142691" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataCache_002EGetArtifactLoader/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D030C0" OwnTime="14453471" SysTime="0" TotalTime="370652667" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EOutputVisitor_002EApply/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800C45" OwnTime="13233678" SysTime="0" TotalTime="397804331" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EMetadataArtifactLoaderCompositeResource_002ECreateResourceLoader/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D0309C" OwnTime="14462844" SysTime="0" TotalTime="341783106" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseExpressionStatement/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A4A" OwnTime="14448777" SysTime="0" TotalTime="330630482" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002ESchemaObjectModel_002ESchemaElement_002EParseAttribute/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D01EB8" OwnTime="13274738" SysTime="0" TotalTime="339282609" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002ECssParser_002EParseRule/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x038004CF" OwnTime="14433952" SysTime="0" TotalTime="294837505" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMetadata_002EEdm_002EStoreItemCollection_002EInit/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D031CC" OwnTime="14438811" SysTime="0" TotalTime="269533965" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EUnaryOperator_002EAccept/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800DBA" OwnTime="14440565" SysTime="0" TotalTime="257156595" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=Microsoft_002EAjax_002EUtilities_002EJSParser_002EParseExpression/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x03800A68" OwnTime="0" SysTime="14452604" TotalTime="244029513" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ECore_002EMapping_002EStorageMappingItemCollection_002E_002Ector/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D024AD" OwnTime="0" SysTime="13240830" TotalTime="254014165" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002ESqlServer_002ESqlProviderServices_002E_003CGetDbProviderManifest_003Eb_005F_005Ff/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01F00496" OwnTime="14421423" SysTime="0" TotalTime="226212191" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EUtilities_002ETypeExtensions_002E_002Ecctor/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00002" OwnTime="13241488" SysTime="0" TotalTime="172078262" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/HotspotsPrecomputing/VirtualFunctionsList/=System_002EData_002EEntity_002EUtilities_002ETypeExtensions_002ECreateInstance/@EntryIndexedValue">&lt;data&gt;&lt;Implementations&gt;&lt;Implementation FuId="0x01D00010" OwnTime="0" SysTime="14418948" TotalTime="125144096" /&gt;&lt;/Implementations&gt;&lt;/data&gt;</s:String>
+	<s:String x:Key="/Default/PerformanceTabManager/XmlContent/@EntryValue">&lt;TabManagerStates&gt;&lt;z:anyType xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:d1p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.PerformanceTab" i:type="d1p1:PerformanceTabSerializer.State" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"&gt;&#xD;
+  &lt;d1p1:ActiveIndex&gt;0&lt;/d1p1:ActiveIndex&gt;&#xD;
+  &lt;d1p1:TabStates&gt;&#xD;
+    &lt;d1p1:PerformanceTabSerializer.State.TabState&gt;&#xD;
+      &lt;d1p1:OpenedView&gt;0&lt;/d1p1:OpenedView&gt;&#xD;
+      &lt;d1p1:TabRootState xmlns:d4p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.TabRoots" i:type="d4p1:SnapshotTabRoot.State"&gt;&#xD;
+        &lt;d4p1:ViewsFactoryState xmlns:d5p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.Views" i:type="d5p1:ViewsFactoryBase.State"&gt;&#xD;
+          &lt;d5p1:States&gt;&#xD;
+            &lt;d5p1:ViewsFactoryBase.State.ViewKeyAndState&gt;&#xD;
+              &lt;d5p1:ViewKey&gt;CallTreePerThread&lt;/d5p1:ViewKey&gt;&#xD;
+              &lt;d5p1:ViewState xmlns:d8p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.TreeViews" i:type="d8p1:SnapshotViewBase.State"&gt;&#xD;
+                &lt;d8p1:HorizontalScroll&gt;0&lt;/d8p1:HorizontalScroll&gt;&#xD;
+                &lt;d8p1:RootNodeData xmlns:d9p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.Persistence"&gt;&#xD;
+                  &lt;d9p1:Children&gt;&#xD;
+                    &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                      &lt;d9p1:Children&gt;&#xD;
+                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                          &lt;d9p1:Children /&gt;&#xD;
+                          &lt;d9p1:State xmlns:d14p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d14p1:SnapshotTreeNode.State"&gt;&#xD;
+                            &lt;d14p1:mySectionNodesState&gt;&#xD;
+                              &lt;d14p1:myData&gt;13705/2&lt;/d14p1:myData&gt;&#xD;
+                            &lt;/d14p1:mySectionNodesState&gt;&#xD;
+                          &lt;/d9p1:State&gt;&#xD;
+                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                          &lt;d9p1:Children&gt;&#xD;
+                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;d9p1:Children&gt;&#xD;
+                                &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;d9p1:Children /&gt;&#xD;
+                                  &lt;d9p1:State xmlns:d18p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d18p1:SnapshotTreeNode.State"&gt;&#xD;
+                                    &lt;d18p1:mySectionNodesState&gt;&#xD;
+                                      &lt;d18p1:myData&gt;F041/2&lt;/d18p1:myData&gt;&#xD;
+                                    &lt;/d18p1:mySectionNodesState&gt;&#xD;
+                                  &lt;/d9p1:State&gt;&#xD;
+                                &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;d9p1:Children /&gt;&#xD;
+                                  &lt;d9p1:State xmlns:d18p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d18p1:SnapshotTreeNode.State"&gt;&#xD;
+                                    &lt;d18p1:mySectionNodesState&gt;&#xD;
+                                      &lt;d18p1:myData&gt;1207D/2&lt;/d18p1:myData&gt;&#xD;
+                                    &lt;/d18p1:mySectionNodesState&gt;&#xD;
+                                  &lt;/d9p1:State&gt;&#xD;
+                                &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;d9p1:Children /&gt;&#xD;
+                                  &lt;d9p1:State xmlns:d18p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d18p1:SnapshotTreeNode.State"&gt;&#xD;
+                                    &lt;d18p1:mySectionNodesState&gt;&#xD;
+                                      &lt;d18p1:myData&gt;B5A1/2&lt;/d18p1:myData&gt;&#xD;
+                                    &lt;/d18p1:mySectionNodesState&gt;&#xD;
+                                  &lt;/d9p1:State&gt;&#xD;
+                                &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;d9p1:Children&gt;&#xD;
+                                    &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                      &lt;d9p1:Children&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;12799/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;12921/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;1246D/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.Folding" i:type="d22p1:ZeroFoldedNode.State"&gt;&#xD;
+                                            &lt;d22p1:FoldRoot xmlns:d23p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d23p1:SnapshotTreeNode.State"&gt;&#xD;
+                                              &lt;d23p1:mySectionNodesState&gt;&#xD;
+                                                &lt;d23p1:myData&gt;127B5/2&lt;/d23p1:myData&gt;&#xD;
+                                              &lt;/d23p1:mySectionNodesState&gt;&#xD;
+                                            &lt;/d22p1:FoldRoot&gt;&#xD;
+                                            &lt;d22p1:FoldedNodes xmlns:d23p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"&gt;&#xD;
+                                              &lt;d23p1:anyType xmlns:d24p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d24p1:SnapshotTreeNode.State"&gt;&#xD;
+                                                &lt;d24p1:mySectionNodesState&gt;&#xD;
+                                                  &lt;d24p1:myData&gt;12195/2&lt;/d24p1:myData&gt;&#xD;
+                                                &lt;/d24p1:mySectionNodesState&gt;&#xD;
+                                              &lt;/d23p1:anyType&gt;&#xD;
+                                              &lt;d23p1:anyType xmlns:d24p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d24p1:SnapshotTreeNode.State"&gt;&#xD;
+                                                &lt;d24p1:mySectionNodesState&gt;&#xD;
+                                                  &lt;d24p1:myData&gt;120ED/2&lt;/d24p1:myData&gt;&#xD;
+                                                &lt;/d24p1:mySectionNodesState&gt;&#xD;
+                                              &lt;/d23p1:anyType&gt;&#xD;
+                                            &lt;/d22p1:FoldedNodes&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;1215D/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children /&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;12125/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                      &lt;/d9p1:Children&gt;&#xD;
+                                      &lt;d9p1:State xmlns:d20p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d20p1:SnapshotTreeNode.State"&gt;&#xD;
+                                        &lt;d20p1:mySectionNodesState&gt;&#xD;
+                                          &lt;d20p1:myData&gt;1293D/2&lt;/d20p1:myData&gt;&#xD;
+                                        &lt;/d20p1:mySectionNodesState&gt;&#xD;
+                                      &lt;/d9p1:State&gt;&#xD;
+                                    &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                    &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                      &lt;d9p1:Children&gt;&#xD;
+                                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;d9p1:Children&gt;&#xD;
+                                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                              &lt;d9p1:Children /&gt;&#xD;
+                                              &lt;d9p1:State xmlns:d24p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d24p1:SnapshotTreeNode.State"&gt;&#xD;
+                                                &lt;d24p1:mySectionNodesState&gt;&#xD;
+                                                  &lt;d24p1:myData&gt;12B19/2&lt;/d24p1:myData&gt;&#xD;
+                                                &lt;/d24p1:mySectionNodesState&gt;&#xD;
+                                              &lt;/d9p1:State&gt;&#xD;
+                                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                              &lt;d9p1:Children /&gt;&#xD;
+                                              &lt;d9p1:State xmlns:d24p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d24p1:SnapshotTreeNode.State"&gt;&#xD;
+                                                &lt;d24p1:mySectionNodesState&gt;&#xD;
+                                                  &lt;d24p1:myData&gt;12BA5/2&lt;/d24p1:myData&gt;&#xD;
+                                                &lt;/d24p1:mySectionNodesState&gt;&#xD;
+                                              &lt;/d9p1:State&gt;&#xD;
+                                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                          &lt;/d9p1:Children&gt;&#xD;
+                                          &lt;d9p1:State xmlns:d22p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d22p1:SnapshotTreeNode.State"&gt;&#xD;
+                                            &lt;d22p1:mySectionNodesState&gt;&#xD;
+                                              &lt;d22p1:myData&gt;12BC1/2&lt;/d22p1:myData&gt;&#xD;
+                                            &lt;/d22p1:mySectionNodesState&gt;&#xD;
+                                          &lt;/d9p1:State&gt;&#xD;
+                                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                      &lt;/d9p1:Children&gt;&#xD;
+                                      &lt;d9p1:State xmlns:d20p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d20p1:SnapshotTreeNode.State"&gt;&#xD;
+                                        &lt;d20p1:mySectionNodesState&gt;&#xD;
+                                          &lt;d20p1:myData&gt;12BDD/2&lt;/d20p1:myData&gt;&#xD;
+                                        &lt;/d20p1:mySectionNodesState&gt;&#xD;
+                                      &lt;/d9p1:State&gt;&#xD;
+                                    &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;/d9p1:Children&gt;&#xD;
+                                  &lt;d9p1:State xmlns:d18p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d18p1:SnapshotTreeNode.State"&gt;&#xD;
+                                    &lt;d18p1:mySectionNodesState&gt;&#xD;
+                                      &lt;d18p1:myData&gt;12BF9/2&lt;/d18p1:myData&gt;&#xD;
+                                    &lt;/d18p1:mySectionNodesState&gt;&#xD;
+                                  &lt;/d9p1:State&gt;&#xD;
+                                &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                                &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                                  &lt;d9p1:Children /&gt;&#xD;
+                                  &lt;d9p1:State xmlns:d18p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.Folding" i:type="d18p1:ZeroFoldedNode.State"&gt;&#xD;
+                                    &lt;d18p1:FoldRoot xmlns:d19p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d19p1:SnapshotTreeNode.State"&gt;&#xD;
+                                      &lt;d19p1:mySectionNodesState&gt;&#xD;
+                                        &lt;d19p1:myData&gt;F079/2&lt;/d19p1:myData&gt;&#xD;
+                                      &lt;/d19p1:mySectionNodesState&gt;&#xD;
+                                    &lt;/d18p1:FoldRoot&gt;&#xD;
+                                    &lt;d18p1:FoldedNodes xmlns:d19p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"&gt;&#xD;
+                                      &lt;d19p1:anyType xmlns:d20p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d20p1:SnapshotTreeNode.State"&gt;&#xD;
+                                        &lt;d20p1:mySectionNodesState&gt;&#xD;
+                                          &lt;d20p1:myData&gt;9A81/2&lt;/d20p1:myData&gt;&#xD;
+                                        &lt;/d20p1:mySectionNodesState&gt;&#xD;
+                                      &lt;/d19p1:anyType&gt;&#xD;
+                                      &lt;d19p1:anyType i:type="d18p1:FilterSubtreeFoldedNode.State"&gt;&#xD;
+                                        &lt;d18p1:FoldRoot xmlns:d21p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d21p1:SnapshotTreeNode.State"&gt;&#xD;
+                                          &lt;d21p1:mySectionNodesState&gt;&#xD;
+                                            &lt;d21p1:myData&gt;9A11/2&lt;/d21p1:myData&gt;&#xD;
+                                          &lt;/d21p1:mySectionNodesState&gt;&#xD;
+                                        &lt;/d18p1:FoldRoot&gt;&#xD;
+                                        &lt;d18p1:FoldedNodes i:nil="true" /&gt;&#xD;
+                                      &lt;/d19p1:anyType&gt;&#xD;
+                                    &lt;/d18p1:FoldedNodes&gt;&#xD;
+                                  &lt;/d9p1:State&gt;&#xD;
+                                &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;/d9p1:Children&gt;&#xD;
+                              &lt;d9p1:Focused&gt;true&lt;/d9p1:Focused&gt;&#xD;
+                              &lt;d9p1:State xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;12C15/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d9p1:State&gt;&#xD;
+                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;d9p1:Children /&gt;&#xD;
+                              &lt;d9p1:State xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;83A5/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d9p1:State&gt;&#xD;
+                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;d9p1:Children /&gt;&#xD;
+                              &lt;d9p1:State xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;4FD/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d9p1:State&gt;&#xD;
+                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;d9p1:Children /&gt;&#xD;
+                              &lt;d9p1:State xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;8A6D/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d9p1:State&gt;&#xD;
+                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                            &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                              &lt;d9p1:Children /&gt;&#xD;
+                              &lt;d9p1:State xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;916D/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d9p1:State&gt;&#xD;
+                            &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                          &lt;/d9p1:Children&gt;&#xD;
+                          &lt;d9p1:State xmlns:d14p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotViews.Performance.Folding" i:type="d14p1:FilterFoldedNode.State"&gt;&#xD;
+                            &lt;d14p1:FoldRoot xmlns:d15p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d15p1:SnapshotTreeNode.State"&gt;&#xD;
+                              &lt;d15p1:mySectionNodesState&gt;&#xD;
+                                &lt;d15p1:myData&gt;136E9/2&lt;/d15p1:myData&gt;&#xD;
+                              &lt;/d15p1:mySectionNodesState&gt;&#xD;
+                            &lt;/d14p1:FoldRoot&gt;&#xD;
+                            &lt;d14p1:FoldedNodes xmlns:d15p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;&#xD;
+                            &lt;d14p1:Children xmlns:d15p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"&gt;&#xD;
+                              &lt;d15p1:anyType xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;12C15/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d15p1:anyType&gt;&#xD;
+                              &lt;d15p1:anyType xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;916D/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d15p1:anyType&gt;&#xD;
+                              &lt;d15p1:anyType xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;8A6D/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d15p1:anyType&gt;&#xD;
+                              &lt;d15p1:anyType xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;83A5/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d15p1:anyType&gt;&#xD;
+                              &lt;d15p1:anyType xmlns:d16p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d16p1:SnapshotTreeNode.State"&gt;&#xD;
+                                &lt;d16p1:mySectionNodesState&gt;&#xD;
+                                  &lt;d16p1:myData&gt;4FD/2&lt;/d16p1:myData&gt;&#xD;
+                                &lt;/d16p1:mySectionNodesState&gt;&#xD;
+                              &lt;/d15p1:anyType&gt;&#xD;
+                            &lt;/d14p1:Children&gt;&#xD;
+                          &lt;/d9p1:State&gt;&#xD;
+                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                        &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                          &lt;d9p1:Children /&gt;&#xD;
+                          &lt;d9p1:State xmlns:d14p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d14p1:SnapshotTreeNode.State"&gt;&#xD;
+                            &lt;d14p1:mySectionNodesState&gt;&#xD;
+                              &lt;d14p1:myData&gt;11/2&lt;/d14p1:myData&gt;&#xD;
+                            &lt;/d14p1:mySectionNodesState&gt;&#xD;
+                          &lt;/d9p1:State&gt;&#xD;
+                        &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                      &lt;/d9p1:Children&gt;&#xD;
+                      &lt;d9p1:State xmlns:d12p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d12p1:ThreadStartNode.State"&gt;&#xD;
+                        &lt;d12p1:mySectionNodesState&gt;&#xD;
+                          &lt;d12p1:myData&gt;13721/2&lt;/d12p1:myData&gt;&#xD;
+                        &lt;/d12p1:mySectionNodesState&gt;&#xD;
+                        &lt;d12p1:Name&gt;Thread #7&lt;/d12p1:Name&gt;&#xD;
+                        &lt;d12p1:ThreadType&gt;HasMessageQueue&lt;/d12p1:ThreadType&gt;&#xD;
+                      &lt;/d9p1:State&gt;&#xD;
+                    &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                    &lt;d9p1:AbstractTreeNodeState&gt;&#xD;
+                      &lt;d9p1:Children /&gt;&#xD;
+                      &lt;d9p1:State xmlns:d12p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d12p1:ThreadStartNode.State"&gt;&#xD;
+                        &lt;d12p1:mySectionNodesState&gt;&#xD;
+                          &lt;d12p1:myData&gt;DA3/1&lt;/d12p1:myData&gt;&#xD;
+                        &lt;/d12p1:mySectionNodesState&gt;&#xD;
+                        &lt;d12p1:Name&gt;Main Thread&lt;/d12p1:Name&gt;&#xD;
+                        &lt;d12p1:ThreadType&gt;HasMessageQueue MainThread&lt;/d12p1:ThreadType&gt;&#xD;
+                      &lt;/d9p1:State&gt;&#xD;
+                    &lt;/d9p1:AbstractTreeNodeState&gt;&#xD;
+                  &lt;/d9p1:Children&gt;&#xD;
+                  &lt;d9p1:State xmlns:d10p1="http://schemas.datacontract.org/2004/07/JetBrains.dotTrace.SnapShotApi.Nodes" i:type="d10p1:RootNode.StateOfThreadStartNodeBTfqEAW4"&gt;&#xD;
+                    &lt;d10p1:mySectionNodesState&gt;&#xD;
+                      &lt;d10p1:myData&gt;25/0;DA3/1;13721/2;25/3;25/4;3B/5;25/6;25/7;25/8;25/9;25/10;25/11&lt;/d10p1:myData&gt;&#xD;
+                    &lt;/d10p1:mySectionNodesState&gt;&#xD;
+                    &lt;d10p1:IsFiltered&gt;true&lt;/d10p1:IsFiltered&gt;&#xD;
+                  &lt;/d9p1:State&gt;&#xD;
+                &lt;/d8p1:RootNodeData&gt;&#xD;
+                &lt;d8p1:VerticalScroll&gt;0&lt;/d8p1:VerticalScroll&gt;&#xD;
+              &lt;/d5p1:ViewState&gt;&#xD;
+            &lt;/d5p1:ViewsFactoryBase.State.ViewKeyAndState&gt;&#xD;
+          &lt;/d5p1:States&gt;&#xD;
+        &lt;/d4p1:ViewsFactoryState&gt;&#xD;
+      &lt;/d1p1:TabRootState&gt;&#xD;
+    &lt;/d1p1:PerformanceTabSerializer.State.TabState&gt;&#xD;
+  &lt;/d1p1:TabStates&gt;&#xD;
+&lt;/z:anyType&gt;&lt;/TabManagerStates&gt;</s:String></wpf:ResourceDictionary>
