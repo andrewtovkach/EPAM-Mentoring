@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+Module8/DumpHomework/DumpHomework/MyCalculator.dll
+Module8/DumpHomework/DumpHomework/MyCalculator.exe

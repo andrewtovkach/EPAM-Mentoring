@@ -1,0 +1,3 @@
+ildasm /out="D:\EPAM-Mentoring\Module8\DumpHomework\DumpHomework\MyCalculator.il" "D:\EPAM-Mentoring\Module8\DumpHomework\DumpHomework\MyCalculator.exe"
+
+ilasm /dll /pdb /debug "D:\EPAM-Mentoring\Module8\DumpHomework\DumpHomework\MyCalculator.il"
