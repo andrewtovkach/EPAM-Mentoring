@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeWinService", "MergeWinService\MergeWinService.csproj", "{9557133A-F181-4466-9E26-90CE0148DDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.Lib", "Log.Lib\Log.Lib.csproj", "{032DC83F-2D49-4807-8463-A2634A8C5D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Lib", "Cache.Lib\Cache.Lib.csproj", "{86C94249-83D6-449F-825B-2F7C5A985B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9557133A-F181-4466-9E26-90CE0148DDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9557133A-F181-4466-9E26-90CE0148DDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9557133A-F181-4466-9E26-90CE0148DDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9557133A-F181-4466-9E26-90CE0148DDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032DC83F-2D49-4807-8463-A2634A8C5D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032DC83F-2D49-4807-8463-A2634A8C5D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032DC83F-2D49-4807-8463-A2634A8C5D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032DC83F-2D49-4807-8463-A2634A8C5D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C94249-83D6-449F-825B-2F7C5A985B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C94249-83D6-449F-825B-2F7C5A985B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C94249-83D6-449F-825B-2F7C5A985B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C94249-83D6-449F-825B-2F7C5A985B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
