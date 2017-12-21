@@ -33,7 +33,7 @@ namespace Log.Lib
 
             invocation.Proceed();
 
-            if (invocation.Method.ReturnType != Type.GetType("Void"))
+            if (invocation.Method.ReturnType != typeof(void))
             {
                 logMessage += $" = {JsonConvert.SerializeObject(invocation.ReturnValue)}";
             }
